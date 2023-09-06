@@ -1,0 +1,25 @@
+.container{
+  border: 4px solid #ff0000;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  padding: 30px 10px 30px 10px;
+  align-items: center;
+  width: 100%;
+}
+.div1,.div2,.div3{
+  background-color: lightblue;
+  height: 100%;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  font-size: 20px;
+  flex: 2;
+}
+.div1{
+  flex: 1;
+  background-color: blueviolet;
+}
+.div3{
+  background-color: #c00202;
+}
